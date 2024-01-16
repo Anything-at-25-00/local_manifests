@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="Anythingat25"
+	    fetch="https://github.com/Anything-at-25-00"
+	    clone-depth="1" />
+
+ <!-- Device -->
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-22.0" />
+ <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="Anythingat25" revision="lineage-22.0" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
+
+ <!-- Kernel -->
+ <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-21" />
+ <project path="device/tecno/LG7n-kernel" name="device_tecno_lg7n_kernel" remote="Anythingat25" revision="lineage-21" />
+
+ <!--Vendor -->
+ <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="Anythingat25" revision="fourteen" />
+ <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="Anythingat25" revision="fourteen" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
+
+ <!-- Dolby -->
+ <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="v1.0_DolbyManager" />
+
+ <!-- Device Support stuffs -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.1" />
+ <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="fifteen"/>
+</manifest>
