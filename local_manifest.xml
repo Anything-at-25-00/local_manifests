@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="gh"
+   <remote name="gh"
            fetch="https://github.com" />
-
    <remote name="Shirayuki39"
             fetch="https://github.com/Shirayuki39"
             clone-depth="1" />
@@ -15,7 +14,6 @@
  <!--Tree -->
  <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Shirayuki39" revision="lineage-20.0" />
 
-
  <!--Kernel -->
  <project path="device/tecno/LG8n-kernel" name="Shirayuki39/device_tecno_lg8n_kernel" remote="gh" revision="lineage-20" />
  
@@ -26,7 +24,4 @@
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="roms-experimental" revision="lineage-20" />
  <project path="hardware/transsion" name="hardware_transsion" remote="roms-experimental" revision="lineage-20.0" />
  <project path="device/transsion/mt6789-headers" name="device_transsion_mt6789-common" remote="tran_mt6789" revision="lineage-20.0" />
-<!--CleanUp Existing-->
-  <!--<remove-project name="LineageOS/android_vendor_lineage"/>-->
-
 </manifest>
