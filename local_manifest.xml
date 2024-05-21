@@ -11,6 +11,6 @@
 <project path="kernel/samsung/a34x" name="Anything-at-25-00/android_kernel_samsung_a34x" remote="github" revision="kernel-at-2500" />
  
 <!--Vendor -->
-<!--<project path="vendor/samsung/a34x" name="" remote="github" revision="" />-->
+<project path="vendor/samsung/a34x" name="Anything-at-25-00/android_vendor_samsung_a34x" remote="github" revision="a34x" />
  
 </manifest>
