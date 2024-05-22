@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Remotes -->
-<remote name="github"
-	fetch="https://github.com"
-        clone-depth="1" />
-<!--Tree -->
-<project path="device/samsung/a34x" name="Anything-at-25-00/android_device_samsung_a34x" remote="github" revision="lineage-21" />
+  <!-- Remotes -->
+  <remote name="gh"
+    fetch="https://github.com"
+    clone-depth="1" />
+  <!--Tree -->
+  <project path="device/samsung/a34x" name="Anything-at-25-00/android_device_samsung_a34x" remote="gh" revision="lineage-21" />
 
-<!--Kernel -->
-<project path="kernel/samsung/a34x" name="Anything-at-25-00/android_kernel_samsung_a34x" remote="github" revision="kernel-at-2500" />
+  <!--Kernel -->
+  <project path="kernel/samsung/a34x" name="Anything-at-25-00/android_kernel_samsung_a34x" remote="gh" revision="kernel-at-2500" />
  
-<!--Vendor -->
-<project path="vendor/samsung/a34x" name="Anything-at-25-00/android_vendor_samsung_a34x" remote="github" revision="a34x" />
- 
+  <!--Vendor -->
+  <project path="vendor/samsung/a34x" name="Anything-at-25-00/android_vendor_samsung_a34x" remote="gh" revision="a34x" />
+
+  <!--LineageOS HW -->
+  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="gh" />
 </manifest>
