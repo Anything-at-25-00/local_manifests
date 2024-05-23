@@ -11,5 +11,5 @@
 
   <!--Misc -->
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="github" />
-  <project name="dmpstr/android_device_mediatek_sepolicy_vndr" path="hardware/mediatek/sepolicy_vndr" revision="lineage-21" remote="gh" />
+  <project name="dmpstr/android_device_mediatek_sepolicy_vndr" path="hardware/mediatek/sepolicy_vndr" revision="lineage-21" remote="github" />
 </manifest>
