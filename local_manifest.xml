@@ -14,7 +14,7 @@
  <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-20.0" />
 
  <!--Kernel -->
- <project path="device/tecno/LG8n-kernel" name="Shirayuki39/device_tecno_lg8n_kernel" remote="github" revision="lineage-20" />
+ <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-20" />
  
  <!--Vendor -->
  <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="Anythingat25" revision="LG8n" />
