@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="forgejo"
+	    fetch="https://git.sucks.win"
+	    clone-depth="1" />
   <!--Tree -->
-  <project path="device/samsung/a34x" name="Anything-at-25-00/android_device_samsung_a34x" remote="github" revision="lineage-21" />
+  <project path="device/samsung/a34x" name="dmpstr/android_device_samsung_a34x" remote="github" revision="lineage-21" />
 
   <!--Kernel -->
-  <project path="kernel/samsung/a34x" name="Anything-at-25-00/android_kernel_samsung_a34x" remote="github" revision="kernel-at-2500" />
+  <project path="kernel/samsung/a34x" name="aubrey/kernel_samsung_a34x-permissive" remote="forgejo" revision="sep-15/connectivity" />
  
   <!--Vendor -->
-  <project path="vendor/samsung/a34x" name="Anything-at-25-00/android_vendor_samsung_a34x" remote="github" revision="a34x" />
+  <project path="vendor/samsung/a34x" name="Allien10X/android_vendor_samsung_a34x" remote="github" revision="a34x" />
 
   <!--Misc -->
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="github" />
-  <project name="dmpstr/android_device_mediatek_sepolicy_vndr" path="hardware/mediatek/sepolicy_vndr" revision="lineage-21" remote="github" />
 </manifest>
