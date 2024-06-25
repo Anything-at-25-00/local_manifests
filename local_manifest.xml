@@ -10,7 +10,7 @@
   <project path="kernel/samsung/a34x" name="aubrey/kernel_samsung_a34x-permissive" remote="forgejo" revision="sep-15/connectivity" />
  
   <!--Vendor -->
-  <project path="vendor/samsung/a34x" name="Allien10X/android_vendor_samsung_a34x" remote="github" revision="a34x" />
+  <project path="vendor/samsung/a34x" name="Allien10X/android_vendor_samsung_a34x" remote="github" revision="lineage-21" />
 
   <!--Misc -->
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" revision="lineage-21" remote="github" />
