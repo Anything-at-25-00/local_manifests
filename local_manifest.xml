@@ -20,7 +20,7 @@
  <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-20" />
  
  <!--Vendor -->
- <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n_a13" remote="Anythingat25" revision="LG8n" />
+ <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n_a14" remote="Anythingat25" revision="LG8n" />
 
  <!--stuff -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="roms-experimental" revision="lineage-20" />
