@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="roms-experimental"
+            fetch="https://github.com/roms-experimental"
+            clone-depth="1" />
+   <remote name="tran_mt6789"
+            fetch="https://github.com/Transsion-MT6789-Resources"
+            clone-depth="1" />
+   <remote name="Anythingat25"
+            fetch="https://github.com/Anything-at-25-00"
+            clone-depth="1" />
+
+ <!--Tree -->
+ <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="Anythingat25" revision="lineage-20.0" />
+
+ <!--Kernel -->
+ <project path="device/tecno/CK7n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-20" />
+ 
+ <!--Vendor -->
+ <project path="vendor/tecno/CK7n" name="android_vendor_tecno_CK7n" remote="Anythingat25" revision="CK7n" />
+
+ <!--stuff -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="roms-experimental" revision="lineage-20" />
+ <project path="hardware/transsion" name="hardware_transsion" remote="roms-experimental" revision="lineage-20.0" />
+ <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20"/>
+ <project path="device/transsion/mt6789-headers" name="whoisgabutuniverseshit/android_device_transsion_mt6789-common" remote="github" revision="lineage-20" />
+</manifest>
