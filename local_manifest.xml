@@ -14,7 +14,7 @@
  <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="Anythingat25" revision="lineage-20.0" />
 
  <!--Kernel -->
- <project path="device/tecno/CK7n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-20" />
+ <project path="device/tecno/CK7n-kernel" name="device_tecno_CK7n-kernel" remote="Anythingat25" revision="lineage-20" />
  
  <!--Vendor -->
  <project path="vendor/tecno/CK7n" name="android_vendor_tecno_CK7n" remote="Anythingat25" revision="CK7n" />
