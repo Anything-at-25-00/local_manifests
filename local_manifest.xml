@@ -14,13 +14,13 @@
 	    clone-depth="1" />
 
  <!--Tree -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="rising-14" />
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG7n" remote="Anythingat25" revision="rising-14" />
 
  <!--Kernel -->
- <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-20" />
+ <project path="device/tecno/LG8n-kernel" name="device_tecno_lg7n_kernel" remote="Anythingat25" revision="lineage-20" />
  
  <!--Vendor -->
- <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n_a14" remote="Anythingat25" revision="LG8n" />
+ <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG7n_a14" remote="Anythingat25" revision="LG8n" />
 
  <!--stuff -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
