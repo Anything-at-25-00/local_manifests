@@ -14,7 +14,7 @@
 	    clone-depth="1" />
 
  <!--Tree -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-21.0-redux" />
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-21.0-v3" />
 
  <!--Kernel -->
  <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-21" />
