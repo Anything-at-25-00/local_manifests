@@ -14,7 +14,7 @@
 	    clone-depth="1" />
 
  <!--Tree -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="rising-14" />
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="rising-14-recommon" />
  <project path="device/tecno/pova4series-common" name="android_device_tecno_pova4series-common" remote="Anythingat25" revision="fourteen" />
 	
  <!--Kernel -->
