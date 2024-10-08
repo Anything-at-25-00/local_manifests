@@ -25,8 +25,8 @@
  <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
 	
  <!--stuff -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="fifteen" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="derp-14"/>
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="derp-15"/>
 <!-- <project path="device/transsion/mt6789-headers" name="device_transsion_mt6789-common" remote="tran_mt6789" revision="lineage-20.0" /> -->
 </manifest>
