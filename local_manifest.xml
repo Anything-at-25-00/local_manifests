@@ -22,7 +22,7 @@
  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="fifteen-qpr2-DolbyManager" />
 
  <!-- Device Support stuffs -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.1" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.2" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="fifteen"/>
 </manifest>
