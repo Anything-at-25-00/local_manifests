@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="Anythingat25"
-	    fetch="https://github.com/Anything-at-25-00"
-	    clone-depth="1" />
+            fetch="https://github.com/Anything-at-25-00"
+            clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-22.2" />
- <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="Anythingat25" revision="lineage-22.2" />
- <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
+ <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="Anythingat25" revision="lineage-22.2-common" />
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="Anythingat25" revision="lineage-22.2-common" />
+ <project path="device/tecno/mt6789_gen2-common" name="android_device_tecno_mt6789_gen2-common" remote="Anythingat25" revision="fifteen-bp1a" />
 
  <!-- Kernel -->
- <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-21" />
- <project path="device/tecno/LG7n-kernel" name="device_tecno_lg7n_kernel" remote="Anythingat25" revision="lineage-21" />
+ <project path="device/tecno/CK7n-kernel" name="android_device_tecno_CK7n-kernel" remote="Anythingat25" revision="fifteen" />
+ <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="Anythingat25" revision="fifteen" />
 
  <!--Vendor -->
- <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="Anythingat25" revision="fifteen-bp1a" />
- <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="Anythingat25" revision="fifteen-bp1a" />
- <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
+ <project path="vendor/tecno/CK7n" name="android_vendor_tecno_CK7n" remote="Anythingat25" revision="lineage-22.2" />
+ <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="Anythingat25" revision="lineage-22.2" />
+ <project path="vendor/tecno/mt6789_gen2-common" name="android_vendor_tecno_mt6789_gen2-common" remote="Anythingat25" revision="fifteen-bp1a" />
 
  <!-- Dolby -->
  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="fifteen-qpr2-DolbyManager" />
