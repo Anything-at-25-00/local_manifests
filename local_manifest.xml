@@ -5,9 +5,9 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-22.2" />
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="lineage-23.0" />
  <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="Anythingat25" revision="lineage-22.2" />
- <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="sixteen" />
 
  <!-- Kernel -->
  <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-21" />
@@ -19,13 +19,11 @@
  <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
 
  <!-- Dolby -->
- <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="fifteen-qpr2-DolbyManager" />
-
- <!--ViPER -->
- <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="Anythingat25" revision="v4a" />
+ <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="sixteen" />
 
  <!-- Device Support stuffs -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.2" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="fifteen"/>
+ <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="Anythingat25" revision="android-16" />
 </manifest>
