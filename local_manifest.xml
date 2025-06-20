@@ -16,7 +16,7 @@
  <!--Vendor -->
  <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="Anythingat25" revision="fifteen-bp1a" />
  <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="Anythingat25" revision="fifteen-bp1a" />
- <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="sixteen" />
 
  <!-- Dolby -->
  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="sixteen" />
