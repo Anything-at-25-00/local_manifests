@@ -21,6 +21,9 @@
  <!-- Dolby -->
  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Anythingat25" revision="sixteen" />
 
+ <!--JamesDSP -->
+ <project path="vendor/JamesDSP" name="vendor_JamesDSP" remote="Anythingat25" revision="sixteen" />
+
  <!-- Device Support stuffs -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.2" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
