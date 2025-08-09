@@ -8,7 +8,7 @@
  <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="Anythingat25" revision="axion-16" />
 
  <!-- Kernel -->
- <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="Anythingat25" revision="sixteen" />
+ <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="Anythingat25" revision="fifteen" />
 
  <!--Vendor -->
  <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="Anythingat25" revision="sixteen" />
