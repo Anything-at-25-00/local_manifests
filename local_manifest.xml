@@ -25,7 +25,7 @@
  <project path="vendor/JamesDSP" name="vendor_JamesDSP" remote="Anythingat25" revision="sixteen" />
 
  <!-- Device Support stuffs -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.2" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="sixteen" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="sixteen" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="sixteen"/>
  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="Anythingat25" revision="android-16" />
