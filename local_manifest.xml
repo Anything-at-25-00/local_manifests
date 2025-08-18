@@ -5,7 +5,7 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="Anythingat25" revision="lineage-23.0" />
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="Anythingat25" revision="axion-16" />
 
  <!-- Kernel -->
  <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="Anythingat25" revision="fifteen" />
