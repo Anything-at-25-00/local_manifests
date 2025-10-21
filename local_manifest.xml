@@ -5,7 +5,7 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="Anythingat25" revision="lineage-23.0" />
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="Anythingat25" revision="yaap-16" />
 
  <!-- Kernel -->
  <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="Anythingat25" revision="fifteen" />
@@ -19,9 +19,13 @@
  <!--JamesDSP -->
  <project path="vendor/JamesDSP" name="vendor_JamesDSP" remote="Anythingat25" revision="sixteen" />
 
+ <!-- Remove YAAP's sepolicy_vndr in favor of ours -->
+ <remove-project path="device/mediatek/sepolicy_vndr" />
+
  <!-- Device Support stuffs -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="sixteen" />
- <project path="hardware/millennium" name="hardware_millennium" remote="Anythingat25" revision="sixteen" />
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="sixteen"/>
+ <project path="hardware/millennium" name="hardware_millennium" remote="Anythingat25" revision="sixteen-no_vndk" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="sixteen-yaap"/>
  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="Anythingat25" revision="android-16" />
+
 </manifest>
